@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowclient",
+  "version": "${version}",
+  "name": "Shadow Client",
+  "description": "A modular, themeable utility client with a draggable ClickGUI and HUD editor.",
+  "authors": ["Shadow Client Team"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.shadowclient.ShadowClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
